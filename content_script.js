@@ -2,7 +2,7 @@
 
 window.iframeUrlMap = new Map();
 
-document.body.addEventListener("click", evt => {
+document.addEventListener("click", evt => {
 	window.iframeUrlMap.forEach(iframe => {
 		iframe.style.display = "none";
 	});
